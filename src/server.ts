@@ -1,6 +1,11 @@
 import fastify, { FastifyInstance } from "fastify";
+import { taskRoutes } from "./routes/task.routes";
 
 const app: FastifyInstance = fastify();
+
+app.register(taskRoutes, {
+  prefix: "/task",
+});
 
 app.listen(
   {
