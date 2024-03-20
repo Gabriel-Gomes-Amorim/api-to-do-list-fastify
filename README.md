@@ -1,9 +1,8 @@
 # To-Do List API com Fastify
 
-![Fastify Logo](fastify_logo.png)
-
 Esta é uma API simples de lista de tarefas (To-Do List) desenvolvida utilizando o framework Fastify em Node.js. Até o momento, a API implementa apenas a funcionalidade de criação de tarefas.
 
+```bash
 ## Instalação
 
 1. Clone o repositório para o seu ambiente local:
@@ -21,6 +20,7 @@ $ npm install
 4. Execute a aplicação:
    
 $ npm run dev
+```
 
 ## Utilização
 
